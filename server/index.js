@@ -11,7 +11,7 @@ app.use(bodyParser.json())
 app.use(cors());
 dotenv.config();
 
-const port = process.env.port || 7000;
+const port = process.env.port || 8000;
 const URL = process.env.MONGOURL;
 
 mongoose.connect(URL).then(()=>{
